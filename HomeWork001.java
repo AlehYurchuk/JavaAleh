@@ -2,7 +2,7 @@
  * Java Basic. Home work #1
  *
  *@author Aleh
- *@version
+ *@version 06.09.2022
  *
 */
 class HomeWork001{
