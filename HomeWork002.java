@@ -2,8 +2,8 @@
  * Java Basic. Home work #002
  *
  *@author Aleh
- *@version 06.09.2022
- *@date
+ *@version 11.09.2022
+ *@date 11.09.2022
 */
 class HomeWork002 {
     public static void main(String[] args) {
