@@ -3,24 +3,27 @@
  *
  *@author Aleh
  *@version 06.09.2022
- *
+ *@date
 */
 class HomeWork001{
     public static void main(String[] args) {
+        // task 1
         int a = 9;
-        System.out.println( "a = " + a );
-        int b =20;
-        System.out.println( "b = " + b);
+        int b = 20;
         int s = a * b;
-        System.out.printf( "s = %s","a * b = " + s);
-		int p = 2 * (a+b);
-        System.out.printf("p = %s, p = %d", "2*(a+b)", p );
+        int p = 2 * (a+b);
+        System.out.printf( "Area = " + s);
+        System.out.printf("Perimeter = " + p );
+
+        // task 2
         int x = 3;
         int y = 5 ;
-        System.out.println(x + y);
-        System.out.println(x - y);
-        System.out.println(x * y);
-        System.out.println(x / y);
+        System.out.printf("%d + %d = %d\n", x, y, x + y);
+        System.out.printf("%d - %d = %d\n", x, y, x - y);
+        System.out.printf("%d * %d = %d\n", x, y, x * y);
+        System.out.printf("%d / %d = %f\n", x, y, (float)x / y);
+
+        //task 3
         int[] array = new int [5];
         array[0] = 5;
         System.out.println(array[0]);
@@ -32,5 +35,12 @@ class HomeWork001{
         System.out.println(array[3]);
         array[4] = 1;
         System.out.println(array[4]);
+
+        // task 4
+        int pizzaDiameter = 28;
+        double pizzaRadius = pizzaDiameter / 2d;
+        double pizzaArea = Math.PI * pizzaRadius *pizzaRadius;
+        double pizzaCalories = pizzaArea * 40;
+        System.out.printf("Pizza %d cm in diameter has %.2f calories", pizzaDiameter, pizzaCalories);
     }
 }
