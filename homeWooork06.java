@@ -5,7 +5,7 @@ import java.util.Scanner;
  *
  *@author Aleh
  *@version 21.09.2022
- *@date 27.09.2022
+ *@date 29.09.2022
  */
 class HomeWork006 {
     static char[][] table = new char[3][3];
