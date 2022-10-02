@@ -1,5 +1,5 @@
 /**
- *  Java Basic. Home work007
+ *  Java Basic. Home work008
  *
  * @author Aleh
  * @TODO: 28.09.2022
